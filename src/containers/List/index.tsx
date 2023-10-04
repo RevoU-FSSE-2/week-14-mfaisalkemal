@@ -43,7 +43,6 @@ const List: React.FC = () => {
             })) : [];
             
             setCategories(categorizedData ?? []);
-            console.log(categorizedData)
         },
         [setCategories, token]
     )
